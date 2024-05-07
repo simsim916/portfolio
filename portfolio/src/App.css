@@ -1,0 +1,10 @@
+.App{
+  display: flex;
+  color: #fff;
+}
+
+#contents{
+  background-color:#3a3542;
+  width: calc(100% - 350px);
+  padding: 20px;
+}

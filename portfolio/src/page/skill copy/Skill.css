@@ -1,0 +1,27 @@
+
+#Skill h3 {
+    font-weight: 500;
+    font-size: 35px;
+    margin: 0;
+    line-height: 50px;
+}
+
+#Skill h3>i {
+    color: #F6C026;
+    margin-right: 15px;
+}
+
+#introduceBox {
+    height: calc(100vh - 280px);
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+#introduceBox::-webkit-scrollbar-thumb{
+    background-color: #A0D3F9;
+    border-radius: 10px;
+}
+
+#introduceBox::-webkit-scrollbar {
+    width: 10px;
+}

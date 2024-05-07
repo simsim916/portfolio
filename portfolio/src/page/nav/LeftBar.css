@@ -1,0 +1,118 @@
+#leftBar {
+    color: white;
+    width: 350px;
+    height: calc(100vh - 10vh);
+    background-color: #4C4556;
+    padding-top: 10vh;
+    position: relative;
+}
+
+#leftBar>.minimize {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#leftBar>.minimize:hover {
+    color: #F6C026;
+}
+
+#mypic {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#mypic img {
+    width: 100%;
+    /* padding-top: 50px; */
+}
+
+#leftBar h2 {
+    font-weight: 400;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 26px;
+    text-align: center;
+}
+
+#leftBar>p {
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+}
+
+#leftBar>p>span {
+    font-size: 22px;
+    color: #F6C026;
+}
+
+#leftBar>ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#leftBar>ul>li {
+    text-align: center;
+    line-height: 35px;
+}
+
+#leftBar>ul>li:nth-child(1):hover>ul {
+    display: block;
+}
+
+.check ul {
+    display: block !important;
+}
+
+#leftBar li>span:hover {
+    color: #F6C026;
+    cursor: pointer;
+}
+
+#leftBar>ul>li>ul {
+    color: white;
+    list-style: none;
+    text-align: left;
+    padding-left: 48%;
+    line-height: 25px;
+    font-size: 80%;
+    display: none;
+}
+
+#leftBar>#contactUS{
+    text-align: left !important;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    bottom: 15px;
+    margin: 0;
+    font-size: 1em;
+}
+#leftBar>#contactUS>li{
+    text-align: left !important;
+    padding-left: 35px;
+    line-height: 25px;
+}
+#leftBar>#contactUS>li i{
+    margin-right: 10px;
+}
+#leftBar>#contactUS>li a{
+    color: wheat;
+    text-decoration: none;
+}
+#leftBar>#contactUS>li a:hover{
+    color: #A0D3F9;
+    text-decoration: underline;
+}

@@ -1,0 +1,77 @@
+.introduce {
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding: 20px;
+    background-color: #4c4c4c;
+    border-radius: 20px;
+    position: relative;
+}
+
+.introduce:last-child {
+    margin-bottom: 0;
+}
+
+.introduce>i {
+    color: white;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    font-size: 30px;
+}
+
+.introduce>i:hover {
+    cursor: pointer;
+    color: #F6C026;
+}
+
+.introduce h4>i {
+    color: #A0D3F9;
+    margin-right: 15px;
+    transform: rotateY(180deg);
+}
+
+.introduce h4 {
+    font-weight: 400;
+    font-size: 26px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.introduce h4:hover {
+    color: #F6C026;
+}
+
+.introduce .introduce_word {
+    text-indent: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.introduce .introduce_word>p {
+    margin: 2px;
+}
+
+.introduce .introduce_word span {
+    color: #F6C026;
+    font-size: 1.2em;
+}
+
+.introduce .introduce_word b {
+    color: #fa80a3;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+#Skill .introduce_word{
+    max-height: 170px;
+    overflow-y: auto;
+}
+
+#Skill .introduce .introduce_word::-webkit-scrollbar-thumb {
+    background-color: #A0D3F9;
+    border-radius: 10px;
+}
+
+#Skill .introduce .introduce_word::-webkit-scrollbar {
+    width: 10px;
+}

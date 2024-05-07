@@ -1,0 +1,85 @@
+#Skill h3 {
+    font-weight: 500;
+    font-size: 35px;
+    margin: 0;
+    line-height: 50px;
+}
+
+#Skill h3>i {
+    color: #F6C026;
+    margin-right: 15px;
+}
+
+#Skill .introduce {
+    margin: 20px 0;
+}
+
+#summary{
+    display: flex;
+    height:80px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+#summary span{
+    padding: 5px 10px;
+    margin: 3px;
+    height: 24px;
+    background-color: rgb(164, 102, 10);
+    border-radius: 10px;
+}
+
+#skill {
+    overflow-y: auto;
+}
+
+#skill h4:nth-child(1){
+    margin: 0;
+}
+#skill h4{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+#skill::-webkit-scrollbar-thumb {
+    background-color: #A0D3F9;
+    border-radius: 10px;
+}
+
+#skill::-webkit-scrollbar {
+    width: 10px;
+}
+
+.skillList {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.skillList svg {
+    width:60px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.skillList img {
+    width: 60px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.skillList>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.skillList>div>p {
+    margin: 2px;
+    font-size: 14px;
+}
+
+.skillList>div>p:nth-of-type(1) {
+    color: #A0D3F9;
+    font-size: 18px;
+    margin: 2px;
+}
