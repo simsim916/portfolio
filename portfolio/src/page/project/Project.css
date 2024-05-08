@@ -1,0 +1,104 @@
+#Project h3 {
+    font-weight: 500;
+    font-size: 35px;
+    margin: 0;
+    line-height: 50px;
+}
+
+#Project h3>i {
+    color: #F6C026;
+    margin-right: 15px;
+}
+
+#projectBox {
+    height: calc(100vh - 110px);
+    padding: 10px;
+    overflow: auto;
+}
+
+#projectBox::-webkit-scrollbar-thumb {
+    background-color: #A0D3F9;
+    border-radius: 10px;
+}
+
+#projectBox::-webkit-scrollbar {
+    width: 10px;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.title:hover{
+    color: #F6C026;
+}
+.title:hover>hr{
+    border-color: #F6C026;
+}
+.title h4 {
+    flex-shrink: 0;
+    font-weight: 400;
+    font-size: 26px;
+    margin: 0;
+}
+
+.title hr {
+    margin: 0;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.title i {
+    width: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.project h5 {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #ffe3fb;
+}
+
+.project p {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    margin: 1px 0;
+}
+
+.project a {
+    color: white;
+}
+
+.project a:hover {
+    color: #A0D3F9;
+}
+
+.project span {
+    color: #F6C026;
+    font-size: 1.2em;
+}
+
+.project b {
+    color: #fa80a3;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.project_content {
+    width: 100%;
+}

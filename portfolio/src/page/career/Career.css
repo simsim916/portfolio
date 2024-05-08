@@ -1,0 +1,88 @@
+#Career h3 {
+    font-weight: 500;
+    font-size: 35px;
+    margin: 0;
+    line-height: 50px;
+}
+
+#Career h3>i {
+    color: #F6C026;
+    margin-right: 15px;
+}
+
+.Career_news{
+    width: 100%;
+}
+
+.career_title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+}
+
+.career_title:hover{
+    color: #F6C026;
+}
+.career_title:hover>hr{
+    border-color: #F6C026;
+}
+
+.career_title h4 {
+    flex-shrink: 0;
+    margin: 0;
+    margin-right: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.career_title p {
+    flex-shrink: 0;
+    margin: 0;
+    margin-right: 20px;
+    font-size: 26px;
+}
+
+.career_title hr {
+    margin: 0;
+    width: 100%;
+}
+.career_title i {
+    padding-left: 20px;
+    margin: 0;
+    font-size: 30px;
+    flex-shrink: 0;
+}
+
+.career_content>p{
+    margin: 0;
+    text-indent: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.career_content>p::before {
+    content: '┗';
+    margin-right: 10px;
+}
+
+.career_detail{
+    padding: 20px;
+    background-color: #4c4c4c;
+    border-radius: 15px;
+}
+.career_detail>p{
+    margin: 0;
+    background-color: #4c4c4c;
+}
+.career_detail span {
+    color: #F6C026;
+    font-size: 1.2em;
+}
+
+.career_detail b {
+    color: #fa80a3;
+    font-size: 1.2em;
+    font-weight: 400;
+}
