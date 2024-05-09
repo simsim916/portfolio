@@ -5,6 +5,11 @@
     background-color: #4C4556;
     padding-top: 10vh;
     position: relative;
+    transition: 2s;
+}
+
+.close{
+    transform: translateX(-290px);
 }
 
 #leftBar>.minimize {

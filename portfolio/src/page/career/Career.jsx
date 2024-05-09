@@ -10,11 +10,11 @@ const Career = () => {
             <div>
                 <h3>
                     <i className="fa-solid fa-user-tie"></i>
-                    경력
+                    걸어온 길...
                 </h3>
             </div>
             <div id='introduceBox'>
-                <Career_kdt />
+                {/* <Career_kdt /> */}
                 <Career_laon />
                 <Career_news />
             </div>

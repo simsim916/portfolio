@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './Introduce.css'
 
 const Introduce = () => {
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(true);
 
     return (
         <div className='introduce'>

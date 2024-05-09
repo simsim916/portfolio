@@ -7,7 +7,7 @@ import Project from './page/project/Project';
 import Career from "./page/career/Career";
 
 function App() {
-  const [menu, setMenu] = useState('경력');
+  const [menu, setMenu] = useState('걸어온길');
   return (
     <div className="App">
       <LeftBar menu={menu} setMenu={setMenu} />
@@ -15,7 +15,7 @@ function App() {
         {menu == '자기소개' && <Intro />}
         {menu == '기술스택' && <Skill />}
         {menu == '프로젝트' && <Project />}
-        {menu == '경력' && <Career />}
+        {menu == '걸어온길' && <Career />}
       </div>
     </div>
   );
