@@ -24,6 +24,7 @@
 
 .career_title:hover{
     color: #F6C026;
+    cursor: pointer;
 }
 .career_title:hover>hr{
     border-color: #F6C026;
