@@ -9,6 +9,7 @@ const Introduce_skill = () => {
             <h4>
                 <i className="fa-solid fa-book"></i>
                 사용가능기술
+                <span><i className="fa-solid fa-angles-right"></i> 더 보러가기</span>
             </h4>
             <div>
                 <span>Spring Boot</span>

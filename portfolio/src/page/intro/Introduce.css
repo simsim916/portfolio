@@ -41,6 +41,16 @@
     overflow: hidden;
 }
 
+.skill h4>span{
+    font-size: 0.65em;
+    margin-left: 15px;
+    opacity: 0.5;
+}
+.skill h4>span:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
 .introduce h4:hover {
     color: #F6C026;
 }
@@ -88,6 +98,7 @@
     margin-top: 0;
     margin-bottom: 10px;
     font-weight: 400;
+    margin-left: 5px;
 }
 
 .skill h4>i {

@@ -12,7 +12,7 @@ const LeftBar = ({ navOpen, setNavOpen, menu, setMenu }) => {
             {
                 navOpen ?
                     <>
-                        <div id='mypic'><img src='/아라찌.gif'></img></div>
+                        <div id='mypic'><img src='/mypic.jpg'></img></div>
                         <h2>오늘이 가장 저렴한 개발자</h2>
                         <p><span>최문석</span>'s 포트폴리오</p>
                         <ul>
@@ -48,7 +48,7 @@ const LeftBar = ({ navOpen, setNavOpen, menu, setMenu }) => {
                                 <li><a href="https://github.com/simsim916"><i className="fa-brands fa-github"></i></a></li>
                                 <li><a><i className="fa-solid fa-phone"></i></a></li>
                             </ul>
-                            <img src='/아라찌.gif'></img>
+                            <div id='picClosed'><img src='/mypic.jpg'></img></div>
                         </div>
                     </>
             }

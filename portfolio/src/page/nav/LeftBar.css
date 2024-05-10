@@ -48,7 +48,7 @@
 
 #mypic img {
     width: 100%;
-    /* padding-top: 50px; */
+    padding-top: 40px;
 }
 
 #navClosed {
@@ -73,10 +73,18 @@
     color: #F6C026;
 }
 
-#navClosed img {
+#navClosed #picClosed {
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+#picClosed img{
+    width: 100%;
+    margin-top: 8px;
 }
 
 #leftBar h2 {
