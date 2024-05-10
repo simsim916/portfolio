@@ -4,12 +4,23 @@
     height: calc(100vh - 10vh);
     background-color: #4C4556;
     padding-top: 10vh;
-    position: relative;
-    transition: 2s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition-duration: 0.8s, 1.2s;
+    transition-timing-function: ease-in, linear;
 }
 
-.close{
-    transform: translateX(-290px);
+#update {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+.close {
+    transform: translateX(-300px);
 }
 
 #leftBar>.minimize {
@@ -38,6 +49,34 @@
 #mypic img {
     width: 100%;
     /* padding-top: 50px; */
+}
+
+#navClosed {
+    width: 40px;
+    height: calc(100% - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    margin: 50px 0 0 0;
+    flex-direction: column;
+}
+
+#navClosed>div {
+    text-align: center;
+    cursor: pointer;
+}
+#navClosed>div:hover {
+    color: #F6C026;
+}
+
+#navClosed img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
 
 #leftBar h2 {
@@ -97,7 +136,7 @@
     display: none;
 }
 
-#leftBar>#contactUS{
+#leftBar>#contactUS {
     text-align: left !important;
     font-family: "Roboto", sans-serif;
     position: absolute;
@@ -105,19 +144,44 @@
     margin: 0;
     font-size: 1em;
 }
-#leftBar>#contactUS>li{
+
+#leftBar>#contactUS>li {
     text-align: left !important;
     padding-left: 35px;
     line-height: 25px;
 }
-#leftBar>#contactUS>li i{
+
+#leftBar>#contactUS>li i {
     margin-right: 10px;
 }
-#leftBar>#contactUS>li a{
+
+#leftBar>#contactUS>li a {
     color: wheat;
     text-decoration: none;
 }
-#leftBar>#contactUS>li a:hover{
+
+#contactUSClosed {
+    margin-top: auto;
+    list-style: none;
+    padding: 0;
+    font-size: 24px;
+}
+
+#contactUSClosed>li {
+    margin-top: 10px;
+}
+
+#contactUSClosed>li a {
+    color: wheat;
+    text-decoration: none;
+}
+
+#leftBar>#contactUS>li a:hover {
+    color: #A0D3F9;
+    text-decoration: underline;
+}
+
+#contactUSClosed>li a:hover {
     color: #A0D3F9;
     text-decoration: underline;
 }

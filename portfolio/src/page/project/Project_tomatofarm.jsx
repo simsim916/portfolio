@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Project_tomatofarm = () => {
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(true);
     return (
         <div className='project'>
             <div onClick={() => setOpen(!open)} className='title'>

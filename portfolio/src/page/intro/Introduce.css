@@ -35,6 +35,10 @@
     font-size: 26px;
     margin: 0;
     cursor: pointer;
+    width: calc(100% - 40px);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .introduce h4:hover {
@@ -62,7 +66,7 @@
     font-weight: 400;
 }
 
-#Skill .introduce_word{
+#Skill .introduce_word {
     max-height: 170px;
     overflow-y: auto;
 }
@@ -74,4 +78,35 @@
 
 #Skill .introduce .introduce_word::-webkit-scrollbar {
     width: 10px;
+}
+
+.skill{
+    margin-bottom: 20px;
+}
+.skill h4{
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.skill h4>i {
+    color: #F6C026;
+    margin-right: 15px;
+    transform: rotateY(180deg);
+}
+
+.skill div{
+    margin-bottom: 5px;
+}
+
+.skill div>span{
+    display: inline-block;
+    margin-bottom: 3px;
+    padding: 0px 10px;
+    line-height: 25px;
+    background-color: #872642;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    margin-right: 6px;
 }

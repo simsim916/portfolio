@@ -20,6 +20,7 @@
     align-items: center;
     font-family: "Roboto", sans-serif;
     margin: 20px 0;
+    overflow: hidden;
 }
 
 .career_title:hover {
@@ -70,10 +71,16 @@
     background-color: #4c4c4c;
     border-radius: 15px;
     position: relative;
+    margin-top: 10px;
 }
 
 .career_contents {
     margin-top: 10px;
+}
+
+.career_contents>p {
+    margin: 1px;
+    text-indent: 10px;
 }
 
 .career_detail span {
@@ -92,10 +99,11 @@
 }
 
 .career_detail_title:hover {
-    color: #F6C026 ;
+    color: #F6C026;
 }
+
 .career_detail_title:hover>i {
-    color: #F6C026 ;
+    color: #F6C026;
 }
 
 .career_detail_title>i {
@@ -122,4 +130,8 @@
     font-size: 20px;
     margin: 0;
     cursor: pointer;
+    width: calc(100% - 40px);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }

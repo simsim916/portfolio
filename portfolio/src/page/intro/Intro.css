@@ -21,21 +21,42 @@
 #introduce img {
     margin-right: 20px;
     border-radius: 30px;
+    margin-left: auto;
 }
 
-#introduce h4 {
+#introduce_title {
+    width: calc(100% - 170px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#introduce_title h4 {
     font-weight: 400;
     font-size: 35px;
+    line-height: 35px;
     margin: 0;
-    margin-bottom: 40px;
+    width: 100%;
 }
 
-#introduce span {
+#introduce_title span {
     font-size: 25px;
-    margin-left: 90px;
+    line-height: 35px;
+    text-align: right;
+    align-self: end;
+    width: 100%;
 }
 
-#introduce span>b {
+#introduce_title span>span {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    margin: 0;
+    width: 100%;
+    color: #F6C026;
+    margin-top: auto;
+}
+
+#introduce_title span>b {
     font-size: 35px;
     font-weight: 400;
     color: #A0D3F9;
@@ -44,14 +65,28 @@
 #Intro #introduceBox {
     height: calc(100vh - 340px);
     overflow-y: auto;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-#introduceBox::-webkit-scrollbar-thumb{
+#introduceBox::-webkit-scrollbar-thumb {
     background-color: #A0D3F9;
     border-radius: 10px;
 }
 
 #introduceBox::-webkit-scrollbar {
     width: 10px;
+}
+
+@media (max-width: 500px) {
+    #introduce img {
+        display: none;
+    }
+
+    #introduce_title {
+        width: 100%;
+    }
+
+    #introduce {
+        height: 160px;
+    }
 }
