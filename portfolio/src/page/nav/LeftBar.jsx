@@ -13,7 +13,7 @@ const LeftBar = ({ navOpen, setNavOpen, menu, setMenu }) => {
                 navOpen ?
                     <>
                         <div id='mypic'><img src='/mypic.jpg'></img></div>
-                        <h2>오늘이 가장 저렴한 개발자</h2>
+                        <h2>오늘이 가장 저렴한 개발자22</h2>
                         <p><span>최문석</span>'s 포트폴리오</p>
                         <ul>
                             <li className={['기술스택', '프로젝트', '경력'].includes(menu) ? null : 'check'}>
