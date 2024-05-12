@@ -16,9 +16,19 @@
 
 #summary{
     display: flex;
-    height:80px;
+    max-height:80px;
+    overflow: auto;
     flex-wrap: wrap;
     margin-bottom: 10px;
+}
+
+#summary::-webkit-scrollbar-thumb {
+    background-color: #A0D3F9;
+    border-radius: 10px;
+}
+
+#summary::-webkit-scrollbar {
+    width: 10px;
 }
 
 #summary span{
