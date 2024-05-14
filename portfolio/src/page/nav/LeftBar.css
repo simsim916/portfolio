@@ -69,6 +69,7 @@
     text-align: center;
     cursor: pointer;
 }
+
 #navClosed>div:hover {
     color: #F6C026;
 }
@@ -82,7 +83,7 @@
     align-items: center;
 }
 
-#picClosed img{
+#picClosed img {
     width: 100%;
     margin-top: 8px;
 }
@@ -93,6 +94,14 @@
     margin-top: 20px;
     font-size: 26px;
     text-align: center;
+}
+
+#leftBar h3 {
+    font-weight: 400;
+    margin: 0;
+    font-size: 26px;
+    text-align: center;
+    color: #e0124c;
 }
 
 #leftBar>p {
@@ -129,9 +138,12 @@
     display: block !important;
 }
 
-#leftBar li>span:hover {
-    color: #F6C026;
-    cursor: pointer;
+#leftBar li>a:hover {
+    color: #A0D3F9 !important;
+}
+
+#leftBar li>a {
+    text-decoration: none;
 }
 
 #leftBar>ul>li>ul {

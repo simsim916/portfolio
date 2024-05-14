@@ -37,12 +37,15 @@
     margin-top: 20px;
     cursor: pointer;
 }
-.title:hover{
+
+.title:hover {
     color: #F6C026;
 }
-.title:hover>hr{
+
+.title:hover>hr {
     border-color: #F6C026;
 }
+
 .title h4 {
     flex-shrink: 0;
     font-weight: 400;
