@@ -14,8 +14,6 @@ const Intro = () => {
 
     return (
         <div id='Intro'>
-
-
             <div id='title' >
                 <h4>
                     <i className="fa-solid fa-circle-info"></i>

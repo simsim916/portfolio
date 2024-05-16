@@ -141,3 +141,20 @@
 #projectList>a>i {
     margin-left: 10px;
 }
+
+#intro_study{
+    margin: 0;
+    list-style: none;
+    padding-left: 20px;
+}
+#intro_study li>span{
+    color: #A0D3F9;
+    margin-left: 8px;
+    font-size: 0.8em;
+    line-height: 0.8em;
+}
+
+#intro_study ul{
+    list-style: none;
+    padding-left: 20px;
+}

@@ -1,0 +1,11 @@
+#My h3 {
+    font-weight: 500;
+    font-size: 35px;
+    margin: 0;
+    line-height: 50px;
+}
+
+#My h3>i {
+    color: #F6C026;
+    margin-right: 15px;
+}

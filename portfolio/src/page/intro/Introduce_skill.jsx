@@ -26,6 +26,22 @@ const Introduce_skill = () => {
             </div>
             <h4>
                 <i className="fa-solid fa-graduation-cap"></i>
+                관련교육
+                <Link to="/study" onClick={() => dispatch(setMenu("관련교육이수"))} ><i className="fa-solid fa-angles-right"></i> 더 보러가기</Link>
+            </h4>
+            <ul id='intro_study'>
+                <li>방송통신대학교 컴퓨터과학과 <span>재학</span></li>
+                <li>KDT 풀스텍 자바 개발자 과정 <span>수료</span></li>
+                <li>인프런
+                    <ul>
+                        <li>- 비전공자도 이해할 수 있는 AWS 입문/실전 <span>수료</span></li>
+                        <li>- 개발자를 위한 쉬운 도커 <span>학습중</span></li>
+                        <li>- Jenkins를 이용한 CI/CD Pipeline 구축 <span>학습중</span></li>
+                    </ul>
+                </li>
+            </ul>
+            <h4>
+                <i className="fa-solid fa-id-card"></i>
                 자격증
                 <Link to="/study" onClick={() => dispatch(setMenu("관련교육이수"))} ><i className="fa-solid fa-angles-right"></i> 더 보러가기</Link>
             </h4>

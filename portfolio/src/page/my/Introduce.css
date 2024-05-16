@@ -1,0 +1,81 @@
+.introduce {
+    padding: 20px;
+    background-color: #4c4c4c;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.introduce:last-child {
+    margin-bottom: 0;
+}
+
+.introduce>i {
+    color: white;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    font-size: 30px;
+}
+
+.introduce>i:hover {
+    cursor: pointer;
+    color: #F6C026;
+}
+
+#My .introduce>h4>i {
+    color: #A0D3F9;
+    margin-right: 15px;
+    transform: rotateY(180deg);
+}
+
+.introduce h4 {
+    font-weight: 400;
+    font-size: 26px;
+    cursor: pointer;
+    width: calc(100% - 40px);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#My .introduce>h4 {
+    margin: 0;
+}
+
+#Intro h4>a {
+    font-size: 0.65em;
+    margin-left: 15px;
+    opacity: 0.5;
+    color: white;
+    text-decoration: none;
+}
+
+#Intro h4>a:hover {
+    opacity: 1;
+}
+
+.introduce h4:hover {
+    color: #F6C026;
+}
+
+.introduce .introduce_word {
+    text-indent: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.introduce .introduce_word>p {
+    margin: 2px;
+}
+
+.introduce .introduce_word span {
+    color: #F6C026;
+    font-size: 1.2em;
+}
+
+.introduce .introduce_word b {
+    color: #fa80a3;
+    font-size: 1.2em;
+    font-weight: 400;
+}
