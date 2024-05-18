@@ -10,7 +10,7 @@ const My_box2 = () => {
             <i onClick={() => setOpen(!open)} className={`fa-solid fa-caret-${open ? 'up' : 'down'}`}></i>
             <h4 onClick={() => setOpen(!open)}>
                 <i className="fa-solid fa-message"></i>
-                오늘이 가장 저렴한 개발자.
+                오늘이 가장 저렴한 개발자
             </h4>
             {open &&
                 <div onClick={() => setOpen(!open)} className='introduce_word'>
