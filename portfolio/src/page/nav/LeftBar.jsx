@@ -14,7 +14,7 @@ const LeftBar = ({ navOpen, setNavOpen }) => {
     return (
         <div id='leftBar' className={navOpen ? null : 'close'}>
             <div id='update'>
-                last update 24.05.181
+                last update 24.05.21
             </div>
             <i onClick={() => setNavOpen(!navOpen)} className={`fa-solid fa-arrow-${navOpen ? 'left' : 'right'} minimize`}></i>
             {
@@ -26,7 +26,7 @@ const LeftBar = ({ navOpen, setNavOpen }) => {
                         <p><span>최문석</span>'s 포트폴리오</p>
                         <ul>
                             <li className={['기술스택', '프로젝트', '경력'].includes(menu) ? null : 'check'}>
-                                <Link to="/" style={{ color: ['기술스택', '프로젝트', '경력'].includes(menu) ? '#fff' : '#F6C026' }} onClick={() => changeMenu('자기소개')}>자기소개</Link>
+                                <Link to="/" style={{ color: ['기술스택', '프로젝트', '경력'].includes(menu) ? '#fff' : '#F6C026' }} onClick={() => changeMenu('전체보기')}>자기소개</Link>
                                 <ul>
                                     <li><Link to="/" style={{ color: menu == '전체보기' ? '#F6C026' : '#fff' }} onClick={() => changeMenu('전체보기')}>전체보기</Link></li>
                                     <li><Link to="/my" style={{ color: menu == '자기소개' ? '#F6C026' : '#fff' }} onClick={() => changeMenu('자기소개')}>자기소개</Link></li>

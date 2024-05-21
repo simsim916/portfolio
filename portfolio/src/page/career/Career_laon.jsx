@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const Career_laon = () => {
     const [open, setOpen] = useState(true);
-    const [open1, setOpen1] = useState(false)
+    const [open1, setOpen1] = useState(true)
     const [open2, setOpen2] = useState(false)
     const [open3, setOpen3] = useState(false)
     const [open4, setOpen4] = useState(false)

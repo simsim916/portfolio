@@ -9,3 +9,8 @@
     color: #F6C026;
     margin-right: 15px;
 }
+
+#My #introduceBox{
+    overflow: auto;
+    height: calc(100vh - 90px);
+}

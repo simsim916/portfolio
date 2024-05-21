@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 const Career_news = () => {
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(true);
     const [open1, setOpen1] = useState(false);
     const [open2, setOpen2] = useState(false);
     return (

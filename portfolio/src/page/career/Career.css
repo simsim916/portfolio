@@ -12,10 +12,10 @@
 
 .Career_news {
     width: 100%;
+        width: calc(100% - 10px);
 }
 
 .career_title {
-    width: 100%;
     display: flex;
     align-items: center;
     font-family: "Roboto", sans-serif;
@@ -134,4 +134,9 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+}
+
+#introduceBox{
+    overflow: auto;
+    height: calc(100vh - 90px);
 }
