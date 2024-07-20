@@ -14,7 +14,7 @@ const LeftBar = ({ navOpen, setNavOpen }) => {
     return (
         <div id='leftBar' className={navOpen ? null : 'close'}>
             <div id='update'>
-                last update 24.05.30
+                last update 24.05.29
             </div>
             <i onClick={() => setNavOpen(!navOpen)} className={`fa-solid fa-arrow-${navOpen ? 'left' : 'right'} minimize`}></i>
             {
